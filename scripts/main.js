@@ -135,10 +135,9 @@ function loadData() {
 				// Ad Listing
 				if(this.gsx$subcategory.$t == 'ad_full_width') {
 					listing = 	'<li class="item ad-full-width">' +
-									'<a href="' + this.gsx$website.$t + '" target="_blank">&nbsp;</a>' +
-									'<div>Ad Placement</div>' +
-									'<img alt="Ad" src="https://drive.google.com/uc?id=' + listingImage +
-									'" />' +
+									'<a href="' + this.gsx$website.$t + '" target="_blank">' +
+										'<img alt="Ad" src="https://drive.google.com/uc?id=' + listingImage +
+										'" />' + '</a>' +
 								'</li>';
 				} else {
 					// Regular Listings
