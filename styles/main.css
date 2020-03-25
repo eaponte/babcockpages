@@ -246,6 +246,22 @@ a:hover {
 	vertical-align: top;
 }
 
+.category-list .item.ad-full-width {
+	display: block;
+	width: 98%;
+	min-height: 0;
+	max-width: 1000px;
+	margin: 15px auto;
+	padding: 0;
+	border: none;
+}
+
+.category-list .item.ad-full-width img {
+	display: inline-block;
+	width:100%;
+	vertical-align: bottom;
+}
+
 .contact-section {
 	background-color: #EDE9E9;
 	padding-bottom: 60px;

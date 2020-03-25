@@ -48,7 +48,7 @@ $(document).ready( function () {
 			}
 		});
 
-	/***** Categories Nav Item *****/
+	/***** Categories Nav Dropdown Item *****/
 
 		function toggleCategoryDropdown() {
 			if($('#category-nav-list').hasClass('open-cat-nav-list')) {
@@ -124,13 +124,23 @@ function loadData() {
 
 		createCatNavItem();
 
+		let listing;
+
 		$(entry).each(function() {
 			if(this.gsx$category.$t) {
 
 				// Listings
 				listingImage = this.gsx$image.$t ? this.gsx$image.$t : placeholderImage;
 
-				let listing =   '<li class="item">' +
+				// Ad Listing
+				if(this.gsx$subcategory.$t == 'ad_full_width') {
+					listing = '<li class="item ad-full-width">' +
+								'<a href="' + this.gsx$website.$t + '" target="_blank">' +
+									'<img alt="Ad" src="https://drive.google.com/uc?id=' + listingImage +
+									'" />' + '</a>'
+				} else {
+					// Regular Listings
+					listing =   '<li class="item">' +
 									'<div class="image">' +
 										'<span class="field"><img alt="Listing Image" src="https://drive.google.com/thumbnail?id=' + listingImage + '" /></span>' +
 									'</div>' +
@@ -144,6 +154,8 @@ function loadData() {
 									'</div>' +
 									'<span class="field">' + this.gsx$comment.$t + '</span>' +
 								'</li>';
+				}
+				
 				if(this.gsx$category.$t === currentCategory) {
 					// Listings
 					$('.' + currentCategoryLowerCase).append(listing);
