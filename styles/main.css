@@ -192,7 +192,7 @@ a:hover {
 .category-list .item {
 	display: inline-block;
 	width: 48%;
-	min-height: 320px;
+	min-height: 340px;
 	margin: 10px 1%;
 	padding: 15px;
 	vertical-align: top;
@@ -250,7 +250,7 @@ a:hover {
 	vertical-align: top;
 }
 
-.category-list .item.ad-full-width {
+.category-list .item.commercial-placement-full-width {
 	display: block;
 	width: 98%;
 	min-height: 0;
@@ -261,14 +261,21 @@ a:hover {
 	background-color: transparent;
 }
 
-.category-list .item.ad-full-width a {
+.category-list .item.commercial-placement-full-width a {
 	display: block;
 	width: 100%;
 	height: 100%;
 	text-decoration: none;
 }
 
-.category-list .item.ad-full-width img {
+.category-list .item.commercial-placement-full-width a.shop-button span {
+	display: inline-block;
+	color: #FFF;
+	background-color: #FF9900;
+	border: 2px solid #000;
+}
+
+.category-list .item.commercial-placement-full-width img {
 	display: inline-block;
 	width:100%;
 	vertical-align: bottom;
