@@ -140,6 +140,13 @@ function loadData() {
 										'" />' +
 									'</a>' +
 								'</li>';
+				} else if(this.gsx$subcategory.$t == 'ad_listing') {
+					listing =	'<li class="item commercial-placement-listing">' +
+									'<img alt="Listing Placement" src="https://drive.google.com/uc?id=' + listingImage +
+									'" />' +
+									'<span class="listing-desc">' + this.gsx$comment.$t + '</span>' +
+									'<a href="' + this.gsx$website.$t + '" target="_blank">Shop Amazon Now</a>' +
+								'</li>';
 				} else {
 					// Regular Listings
 					listing =   '<li class="item">' +

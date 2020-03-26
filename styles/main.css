@@ -268,17 +268,43 @@ a:hover {
 	text-decoration: none;
 }
 
-.category-list .item.commercial-placement-full-width a.shop-button span {
-	display: inline-block;
-	color: #FFF;
-	background-color: #FF9900;
-	border: 2px solid #000;
-}
-
 .category-list .item.commercial-placement-full-width img {
 	display: inline-block;
-	width:100%;
+	width: 100%;
 	vertical-align: bottom;
+}
+
+.category-list .item.commercial-placement-listing {
+	text-align: center;
+}
+
+.category-list .item.commercial-placement-listing img {
+	width: 100%;
+	max-width: 290px;
+	border: 3px solid #FFF;
+}
+
+.category-list .item.commercial-placement-listing .listing-desc {
+	display: block;
+	text-align: left;
+	padding: 8px;
+}
+
+.category-list .item.commercial-placement-listing a {
+	display: inline-block;
+	color: #FFF;
+	font-weight: 600;
+	padding: 6px;
+	background-color: #654A4E;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+}
+
+.category-list .item.commercial-placement-listing a:hover {
+	background-color: #916A70;
+	color: #FFF;
+	transition: 0.2s ease-out;
 }
 
 .contact-section {
