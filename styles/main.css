@@ -170,6 +170,16 @@ ul {
 	padding: 30px 10% 0;
 }
 
+#intro .affiliate-disclaimer {
+	width: 90%;
+	margin: auto;
+	background-color: #FAFAFA;
+	padding: 10px;
+	border: 3px solid #D8DFE9;
+	border-radius: 8px;
+	font-size: 14px;
+}
+
 #data-display {
 	padding: 10px 20px;
 }
@@ -286,11 +296,10 @@ a:hover {
 
 .category-list .item.commercial-placement-listing .listing-desc {
 	display: block;
-	text-align: left;
 	padding: 8px;
 }
 
-.category-list .item.commercial-placement-listing a {
+.category-list .item.commercial-placement-listing a, .affiliate-disclaimer a {
 	display: inline-block;
 	color: #FFF;
 	font-weight: 600;
@@ -299,9 +308,10 @@ a:hover {
 	border-radius: 4px;
 	text-decoration: none;
 	transition: 0.2s ease-out;
+	text-align: center;
 }
 
-.category-list .item.commercial-placement-listing a:hover {
+.category-list .item.commercial-placement-listing a:hover, .affiliate-disclaimer a:hover {
 	background-color: #916A70;
 	color: #FFF;
 	transition: 0.2s ease-out;
@@ -460,5 +470,9 @@ footer a:hover {
 
 	.top-banner-content p {
 		font-size: 24px;
+	}
+
+	#intro .affiliate-disclaimer {
+		width: 100%;
 	}
 }
