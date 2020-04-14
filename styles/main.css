@@ -108,7 +108,7 @@ ul {
 
 .open-cat-nav-list {
 	display: block !important;
-	max-height: 100% !important;
+	max-height: 60% !important;
 	overflow: auto !important;
 }
 
