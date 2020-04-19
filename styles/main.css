@@ -113,19 +113,20 @@ ul {
 	overflow: auto !important;
 }
 .open-cat-nav-list::-webkit-scrollbar {
-	width: 12px;
+	width: 20px;
+	border-radius: 220px;
 }
 .open-cat-nav-list::-webkit-scrollbar-track {
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: #F8F5F5;
-	border: 3px solid #D8D0D1;
+	border: 7px solid #D8D0D1;
 }
 
 .open-cat-nav-list::-webkit-scrollbar-thumb {
 	background-color: #654A4E;
 	border-radius: 10px;
-	border-left: 3px solid #D8D0D1;
-	border-right: 3px solid #D8D0D1;
+	border-left: 7px solid #D8D0D1;
+	border-right: 7px solid #D8D0D1;
 }
 
 #category-nav-list .category-nav-item, #category-nav-list .category-nav-item a {
