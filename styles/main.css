@@ -100,7 +100,7 @@ ul {
 #category-nav-list {
 	display: none;
 	position: fixed;
-	right: 0;
+	right: 5px;
 	max-height: 0;
 	overflow: hidden;
 	background-color: #D8D0D1;
@@ -108,8 +108,24 @@ ul {
 
 .open-cat-nav-list {
 	display: block !important;
+	min-width:250px;
 	max-height: 60% !important;
 	overflow: auto !important;
+}
+.open-cat-nav-list::-webkit-scrollbar {
+	width: 12px;
+}
+.open-cat-nav-list::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #F8F5F5;
+	border: 3px solid #D8D0D1;
+}
+
+.open-cat-nav-list::-webkit-scrollbar-thumb {
+	background-color: #654A4E;
+	border-radius: 10px;
+	border-left: 3px solid #D8D0D1;
+	border-right: 3px solid #D8D0D1;
 }
 
 #category-nav-list .category-nav-item, #category-nav-list .category-nav-item a {
