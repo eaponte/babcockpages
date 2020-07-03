@@ -28,6 +28,8 @@ ul {
 	clear: both;
 }
 
+/***** Top Fixed Header *****/
+
 #header {
 	z-index: 1000;
 	position: fixed;
@@ -62,6 +64,8 @@ ul {
 	display: inline-block;
 	height: 45px;
 }
+
+/***** Top Navigation *****/
 
 #header .main-menu .fas.fa-bars, #header .main-menu .fas.fa-times {
 	display: none;
@@ -216,6 +220,8 @@ a:hover {
 	text-decoration: none;
 }
 
+/***** Listings *****/
+
 .category-list .item {
 	display: inline-block;
 	width: 48%;
@@ -277,6 +283,8 @@ a:hover {
 	vertical-align: top;
 }
 
+/***** Ad, Informational, Video Listings *****/
+
 .category-list .item.commercial-placement-full-width {
 	display: block;
 	width: 98%;
@@ -301,22 +309,31 @@ a:hover {
 	vertical-align: bottom;
 }
 
-.category-list .item.commercial-placement-listing {
+.category-list .item.commercial-placement-listing, 
+.category-list .item.informational-listing, 
+.category-list .item.video-listing {
 	text-align: center;
 }
 
-.category-list .item.commercial-placement-listing img {
+.category-list .item.commercial-placement-listing img, 
+.category-list .item.informational-listing img, 
+.category-list .item.video-listing img {
 	width: 100%;
 	max-width: 290px;
 	border: 3px solid #FFF;
 }
 
-.category-list .item.commercial-placement-listing .listing-desc {
+.category-list .item.commercial-placement-listing .listing-desc, 
+.category-list .item.informational-listing .listing-desc, 
+.category-list .item.video-listing .listing-desc {
 	display: block;
 	padding: 8px;
 }
 
-.category-list .item.commercial-placement-listing a, .affiliate-disclaimer a {
+.category-list .item.commercial-placement-listing a, 
+.category-list .item.informational-listing a, 
+.category-list .item.video-listing a, 
+.affiliate-disclaimer a {
 	display: inline-block;
 	color: #FFF;
 	font-weight: 600;
@@ -328,11 +345,16 @@ a:hover {
 	text-align: center;
 }
 
-.category-list .item.commercial-placement-listing a:hover, .affiliate-disclaimer a:hover {
+.category-list .item.commercial-placement-listing a:hover, 
+.category-list .item.informational-listing a:hover, 
+.category-list .item.video-listing a:hover, 
+.affiliate-disclaimer a:hover {
 	background-color: #916A70;
 	color: #FFF;
 	transition: 0.2s ease-out;
 }
+
+/***** Contact *****/
 
 .contact-section {
 	background-color: #EDE9E9;
@@ -379,7 +401,7 @@ a:hover {
     min-height: 800px;
 }
 
-
+/***** Footer *****/
 
 footer {
 	padding: 20px 10px;

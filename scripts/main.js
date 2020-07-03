@@ -81,7 +81,8 @@ $(document).ready( function () {
 });
 
 function loadData() {
-	let spreadsheetID = '1qMwDAjxVNh6Y2misdyEqqf-NyYoDr7czQf7RV8yfHiU';
+	let spreadsheetID = '1qMwDAjxVNh6Y2misdyEqqf-NyYoDr7czQf7RV8yfHiU'; // production data
+	// let spreadsheetID = '1x95UiVdt2hb9XFbX1g2kcdZp0KXhYn0Nqyug3y8q8GI'; // testing data
 	let url = 'https://spreadsheets.google.com/feeds/list/' + spreadsheetID + '/od6/public/values?alt=json';
 
 	$.getJSON(url, function(data) {
@@ -146,6 +147,21 @@ function loadData() {
 									'" />' +
 									'<span class="listing-desc">' + this.gsx$comment.$t + '</span>' +
 									'<a href="' + this.gsx$website.$t + '" target="_blank">Shop Amazon Now</a>' +
+								'</li>';
+				} else if(this.gsx$subcategory.$t == 'informational') {
+					listing =	'<li class="item informational-listing">' +
+									'<img alt="Listing Image" src="https://drive.google.com/uc?id=' + listingImage +
+									'" />' +
+									'<span class="listing-desc">' + this.gsx$comment.$t + '</span>' +
+									'<a href="' + this.gsx$website.$t + '" target="_blank">View Now</a>' +
+								'</li>';
+				} else if(this.gsx$subcategory.$t == 'youtube') {
+					// Youtube video
+					listing =	'<li class="item video-listing">' +
+									'<img alt="Video Thumbnail" src="https://i.ytimg.com/vi/' + this.gsx$website.$t +
+									'/hqdefault.jpg" />' +
+									'<span class="listing-desc">' + this.gsx$comment.$t + '</span>' +
+									'<a href="https://www.youtube.com/watch?v=' + this.gsx$website.$t + '" target="_blank">Watch Video</a>' +
 								'</li>';
 				} else {
 					// Regular Listings
