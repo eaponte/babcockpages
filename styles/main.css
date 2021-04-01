@@ -191,7 +191,7 @@ ul {
 	padding: 30px 10% 0;
 }
 
-#intro .affiliate-disclaimer {
+#intro .affiliate-disclaimer, .listing-rules {
 	width: 90%;
 	margin: auto;
 	background-color: #FAFAFA;
@@ -199,6 +199,12 @@ ul {
 	border: 3px solid #D8DFE9;
 	border-radius: 8px;
 	font-size: 14px;
+}
+
+.listing-rules {
+	background-color: #F2DEDE;
+	color: #A94442;
+	font-size: 16px;
 }
 
 #data-display {
@@ -511,7 +517,7 @@ footer a:hover {
 		font-size: 24px;
 	}
 
-	#intro .affiliate-disclaimer {
+	#intro .affiliate-disclaimer, .listing-rules {
 		width: 100%;
 	}
 }
