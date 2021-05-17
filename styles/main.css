@@ -191,7 +191,7 @@ ul {
 	padding: 30px 10% 0;
 }
 
-#intro .affiliate-disclaimer, .listing-rules {
+#intro .affiliate-disclaimer, .donate-intro, .listing-rules {
 	width: 90%;
 	margin: auto;
 	background-color: #FAFAFA;
@@ -201,10 +201,15 @@ ul {
 	font-size: 14px;
 }
 
+.donate-intro {
+	width: 70%;
+}
+
 .listing-rules {
 	background-color: #F2DEDE;
 	color: #A94442;
 	font-size: 16px;
+	border-color: #A94442;
 }
 
 #data-display {
@@ -360,14 +365,31 @@ a:hover {
 	transition: 0.2s ease-out;
 }
 
+.donate-intro a {
+	display: inline-block;
+	color: #FFF;
+	font-weight: 600;
+	padding: 6px;
+	background-color: #0070BA;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: 0.2s ease-out;
+	text-align: center;
+}
+
+.donate-intro a:hover {
+	background-color: #005EA6;
+	transition: 0.2s ease-out;
+}
+
 /***** Contact *****/
 
 .contact-section {
-	background-color: #EDE9E9;
 	padding-bottom: 60px;
 }
 
 .donate-section {
+	background-color: #EDE9E9;
 	padding-bottom: 60px;
 }
 
@@ -384,6 +406,12 @@ a:hover {
 
 .contact-intro, .donate-intro {
 	padding: 0 10% 30px;
+}
+
+.donate-intro {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 16px;
 }
 
 .contact-form {
