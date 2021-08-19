@@ -191,7 +191,7 @@ ul {
 	padding: 30px 10% 0;
 }
 
-#intro .affiliate-disclaimer, .donate-intro, .listing-rules {
+.affiliate-disclaimer, .donate-intro, .listing-rules {
 	width: 90%;
 	margin: auto;
 	background-color: #FAFAFA;
@@ -201,8 +201,20 @@ ul {
 	font-size: 14px;
 }
 
+.affiliate-disclaimer {
+	max-width: 640px;
+	margin-top: 40px;
+	text-align: left;
+}
+
 .donate-intro {
 	width: 70%;
+}
+
+.width-90 {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .listing-rules {
