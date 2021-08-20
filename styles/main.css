@@ -33,9 +33,10 @@ ul {
 #header {
 	z-index: 1000;
 	position: fixed;
+	width: 100%;
+	max-width: 1600px;
 	left: 0;
 	top: 0;
-	right: 0;
 	height: 65px;
 	transition: all 0.5s;
 	background-color: #654A4E; /* #D8D0D1 */
@@ -469,6 +470,18 @@ footer a:hover {
 }
 
 /***** Media Queries *****/
+
+@media (min-width: 1600px) {
+	#header {
+		width: 1600px;
+		left: calc(50% - 800px);
+	}
+
+	#category-nav-list {
+		right: unset;
+		margin-left: -140px;
+	}
+}
 
 @media (max-width: 1024px) {
 
