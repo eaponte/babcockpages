@@ -1542,8 +1542,8 @@ let listingsData = [
 		"address": "Babcock Ranch, FL",
 		"addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7841793!4d-81.7445335?hl=en",
 		"phone": "786-277-7866",
-		"email": "",
-		"website": "",
+		"email": "excop@outlook.com",
+		"website": "https://www.facebook.com/groups/247665953591669/",
 		"image": "1vNZVt13YF8KAFtbstS19pMTk0AYCVGTm",
 		"comment": "Bernie Valdes is a Babcock Ranch resident and retired police officer providing Babcock Ranch with rides to and from airports."
 	  },
