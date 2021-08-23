@@ -1058,6 +1058,18 @@ let listingsData = [
 	{
 	  "category": "Lawn and Garden",
 	  "subcategory": "Landscape",
+	  "name": "Horseshoe Acres",
+	  "address": "41181 Horseshoe Road, Punta Gorda, FL 33982",
+	  "addressurl": "https://www.google.com/maps/place/41181+Horseshoe+Rd,+Punta+Gorda,+FL+33982/@26.7848146,-81.7819576,14.96z/data=!4m5!3m4!1s0x88db65d6efc043cf:0x31f89a55d47d991d!8m2!3d26.7852989!4d-81.775205?hl=en",
+	  "phone": "239-851-9151",
+	  "email": "kevinwbarrier@embarqmail.com",
+	  "website": "https://horseshoeacresnursery.com/",
+	  "image": "1CQLfse0FZwkmqmEWmwplC448sRbHqMcp",
+	  "comment": "Kevin Barrier, of Horseshoe Acres Landscaping, is right across route 31 and provides landscaping services and tree removal at fair prices."
+	},
+	{
+	  "category": "Lawn and Garden",
+	  "subcategory": "Landscape",
 	  "name": "Scott's Landscape Nursery",
 	  "address": "5870 Bayshore Rd, North Fort Myers, FL 33917",
 	  "addressurl": "https://www.google.com/maps/place/Scott's+Landscape+Nursery/@26.6897436,-81.8663119,15.25z/data=!4m5!3m4!1s0x88db69da2aeb7a7b:0x2fb3045971d7d561!8m2!3d26.6901594!4d-81.8607247?hl=en",

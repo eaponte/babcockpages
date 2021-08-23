@@ -115,6 +115,8 @@ function loadData() {
 	createCatNavItem();
 
 	// Generate listings
+	
+	console.log('Listing count: ' + listingsData.length);
 
 	listingsData.map(entry => {
 
