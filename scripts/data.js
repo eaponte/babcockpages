@@ -709,6 +709,18 @@ let listingsData = [
 	},
 	{
 	  "category": "Home Services",
+	  "subcategory": "Handyman",
+	  "name": "Jason Caissie",
+	  "address": "Babcock Ranch, FL 33982",
+	  "addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7836733!4d-81.7470806?hl=en",
+	  "phone": "239-898-8940",
+	  "email": "SWFLEVOwners@gmail.com",
+	  "website": "",
+	  "image": "1PluS2ZwWiajoyGdKot9d5X4MlIBuJPXk",
+	  "comment": "Jason Caissie is a Babcock Ranch resident providing:<br />&bull; Furniture Assembly<br />&bull; Ceiling Fan/Light Installation<br />&bull; IKEA Pickup and Assembly (Pickup Locations: Tampa, Sunrise and Orlando)<br />&bull; Smart Home Setup and TV Installation"
+	},
+	{
+	  "category": "Home Services",
 	  "subcategory": "Various, Tutoring, Baby Sitting, Dog Walking",
 	  "name": "Katie Rose Summer Services",
 	  "address": "Babcock Ranch, FL 33982",
@@ -1114,6 +1126,18 @@ let listingsData = [
 	  "website": "http://www.reliantacutecare.com/",
 	  "image": "18DWsr45vYmHHORmDCkF6l_l6I8KNniuv",
 	  "comment": "Walk-In and Primary Care medical clinic certified as an Immediate Care Clinic. Family Nurse Practitioner Jennifer Haas welcomes new patients and is very knowledgeable with excellent bedside manner."
+	},
+	{
+	  "category": "Movers",
+	  "subcategory": "",
+	  "name": "Jason Caissie",
+	  "address": "Babcock Ranch, FL 33982",
+	  "addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7836733!4d-81.7470806?hl=en",
+	  "phone": "239-898-8940",
+	  "email": "SWFLEVOwners@gmail.com",
+	  "website": "",
+	  "image": "1PluS2ZwWiajoyGdKot9d5X4MlIBuJPXk",
+	  "comment": "Jason Caissie is a Babcock Ranch resident providing relocation services to or from Southwest Florida<br />&bull; Drive your Uhaul (Prices Vary by Size and Distance)<br />&bull; Drive your Personal Vehicles (Prices Vary by Distance)"
 	},
 	{
 	  "category": "Painter",
@@ -1548,17 +1572,29 @@ let listingsData = [
 	  "comment": "JRA will custom build your bike or you can buy it right off the floor. We perform simple fix-it solutions or complex rebuilds from the frame up. Our aim is to make all bicycle riders happy."
 	},
 	{
-		"category": "Travel",
-		"subcategory": "Transportation",
-		"name": "Bernie Valdes",
-		"address": "Babcock Ranch, FL",
-		"addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7841793!4d-81.7445335?hl=en",
-		"phone": "786-277-7866",
-		"email": "excop@outlook.com",
-		"website": "https://www.facebook.com/groups/247665953591669/",
-		"image": "1vNZVt13YF8KAFtbstS19pMTk0AYCVGTm",
-		"comment": "Bernie Valdes is a Babcock Ranch resident and retired police officer providing Babcock Ranch with rides to and from airports."
-	  },
+	  "category": "Tech",
+	  "subcategory": "",
+	  "name": "Jason Caissie",
+	  "address": "Babcock Ranch, FL 33982",
+	  "addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7836733!4d-81.7470806?hl=en",
+	  "phone": "239-898-8940",
+	  "email": "SWFLEVOwners@gmail.com",
+	  "website": "https://www.facebook.com/MacDaddyBabcockRanch/",
+	  "image": "1PluS2ZwWiajoyGdKot9d5X4MlIBuJPXk",
+	  "comment": "Jason Caissie is a Babcock Ranch resident providing:<br />&bull; Smart Home Setup (Amazon Alexa, Google Home, Wireless Surveillance, Garage Door Controllers, Ring Doorbells, Thermostats, Sprinkler Controllers, etc.)<br />&bull; Home Entertainment Setup (Streaming Devices, Home Theater Audio, TV Wall Mounting under 60in)<br />&bull; Personal Computer Support (Windows, Mac, Google Chrome, Hardware Repair, iPhone/iPad Support, Android Device Support, Smartwatch, Bluetooth, Wireless Networking)"
+	},
+	{
+	  "category": "Travel",
+	  "subcategory": "Transportation",
+	  "name": "Bernie Valdes",
+	  "address": "Babcock Ranch, FL",
+	  "addressurl": "https://www.google.com/maps/place/Babcock+Ranch/@26.7820877,-81.7487505,15z/data=!4m13!1m7!3m6!1s0x88db631a4a6ee999:0xd03a3274f5136576!2sBabcock+Ranch,+FL+33982!3b1!8m2!3d26.8739165!4d-81.7194842!3m4!1s0x88db57b141ea9c43:0x5876a9bc2db5bd3b!8m2!3d26.7841793!4d-81.7445335?hl=en",
+	  "phone": "786-277-7866",
+	  "email": "excop@outlook.com",
+	  "website": "https://www.facebook.com/groups/247665953591669/",
+	  "image": "1vNZVt13YF8KAFtbstS19pMTk0AYCVGTm",
+	  "comment": "Bernie Valdes is a Babcock Ranch resident and retired police officer providing Babcock Ranch with rides to and from airports."
+	},
 	{
 	  "category": "Travel",
 	  "subcategory": "Transportation",

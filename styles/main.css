@@ -249,7 +249,7 @@ a:hover {
 .category-list .item {
 	display: inline-block;
 	width: 48%;
-	min-height: 340px;
+	min-height: 380px;
 	margin: 10px 1%;
 	padding: 15px;
 	vertical-align: top;
