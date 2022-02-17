@@ -369,6 +369,10 @@ a:hover {
 	text-align: center;
 }
 
+.category-list .item.gad::before {
+	content:'Advertisement';
+}
+
 .category-list .item.commercial-placement-listing a:hover, 
 .category-list .item.informational-listing a:hover, 
 .category-list .item.video-listing a:hover, 

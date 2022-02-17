@@ -103,6 +103,20 @@ $(document).ready( function () {
 											'<span class="listing-desc">' + entry.comment + '</span>' +
 											'<a href="' + entry.website + '" target="_blank">Shop Amazon Now</a>' +
 										'</li>';
+						} else if(entry.subcategory == 'gad_listing') {
+							listing =	'<li class="item commercial-placement-listing gad">' +
+											'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6924811521509568"crossorigin="anonymous">' + '</script>' +
+									   		'<ins class="adsbygoogle"' +
+											   'style="display:block; text-align:center;"' +
+											   'data-ad-layout="in-article"' +
+											   'data-ad-format="fluid"' + 
+											   'data-ad-client="ca-pub-6924811521509568"' +
+											   'data-ad-slot="9962749802">' +
+											'</ins>' +
+									        '<script>' + 
+												'(adsbygoogle = window.adsbygoogle || []).push({});' +
+									        '</script>' +
+										'</li>';
 						} else if(entry.subcategory == 'informational') {
 							listing =	'<li class="item informational-listing">' +
 											'<img alt="Listing Image" src="https://drive.google.com/uc?id=' + listingImage +
