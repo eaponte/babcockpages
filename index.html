@@ -60,7 +60,7 @@
                 <ul class="nav-menu">
                     <li><a href="#top-banner">Home</a></li>
 					<li><a href="#donate">Donate</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li class="category-nav">
                         <span class="category-nav-link">Categories&nbsp;<i class="fas fa-angle-down"></i></span>
                         <ul id="category-nav-list"></ul>
@@ -93,8 +93,13 @@
                     As such, I have decided to try and organize all the helpful suggestions made by fellow neighbors on non-official neighborhood Facebook groups and present it all in one place.
                 </p>
                 <p>
-                    Neighbor recommended suggestions is how we grow the listings on this site. Below, please find the <a href="#contact"><strong>contact</strong></a> section and send your comments regarding services, contractors, and restaurants, including businesses created by Babcock Ranch neighbors that you feel are worth mentioning on this site.
+                    Neighbor recommended suggestions is how we grow the listings on this site. Below, please find the <a href="contact.html"><strong>contact</strong></a> section and send your comments regarding services, contractors, and restaurants, including businesses created by Babcock Ranch neighbors that you feel are worth mentioning on this site.
                 </p>
+				<p class="affiliate-disclaimer">
+					<span data-nosnippet>
+						Babcock Pages uses Amazon affiliate links and may earn a small commission if you click on that link and make any purchase on Amazon. <a href="affiliate-disclaimer.html"><strong>Learn More</strong></a>
+					</span>
+				</p>
             </div>
             <!-- /intro -->
             <div id="data-display"></div> <!-- Where the site listings are displayed -->
@@ -115,37 +120,6 @@
                 </div>
             </div>
             <!-- /donate-section -->
-            <div class="contact-section">
-                <h2 id="contact">Contact</h2>
-                <div class="contact-intro">
-                    <p class="width-90">
-                        Please use the form below to leave general comments, but more importantly, <strong>use this form to suggest listings for future placement on Babcock Pages</strong>.
-                    </p>
-                    <p class="width-90">
-                        When suggesting new listings, be sure to include any available information you may have (name, address, website, phone, etc.). Also suggest the category it should fall under. If no category is yet available, suggest a new category for the listing you are providing.
-                    </p>
-					<p class="listing-rules">
-						<strong>NOTICE: </strong>No business owner or employee of a business can recommend their own business for inclusion in this directory. All listings are based on neighbor recommendations who have used a particular service with favorable outcome.
-						<br /><br />
-						If you would like to recommend your own business for inclusion in this directory, your business or service must have at least two favorable reviews on the unofficial Babcock Ranch neighborhood Facebook pages.
-					</p>
-                </div>
-                <!-- /contact-intro -->
-                <div class="contact-form">
-                    <div class="contact-form-container">
-                        <iframe class="contact-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdJM8v034yyruq-Wq6xBBdGaeThwWXkLQtkxbf0tGBBTduNag/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    </div>
-                    <!-- /contact-form-container -->
-
-                    <p class="affiliate-disclaimer">
-                        <span data-nosnippet>
-                            Babcock Pages uses Amazon affiliate links and may earn a small commission if you click on that link and make any purchase on Amazon.
-                        </span>
-                    </p>
-                </div>
-                <!-- /contact-form -->
-            </div>
-            <!-- /contact-section -->
         </div>
         <!-- /content -->
     </div>
@@ -168,8 +142,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
+	<script src="scripts/main.js"></script>
+	
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
-	<script src="scripts/main.js"></script>
+	<script src="scripts/loaddata.js"></script>
 </body>
 </html>
